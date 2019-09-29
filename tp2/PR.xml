@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PR SYSTEM "PR.dtd">
+<PR>
+    <Header>
+        <KName>DAW_TPC2</KName>
+        <Title>Project Record Data Type Definition</Title>
+        <Subtitle>-</Subtitle>
+        <BDate>Setembro 2019</BDate>
+        <EDate>Setembro 2019</EDate>
+        <Supervisor link="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</Supervisor>
+    </Header>
+    <Abstract>
+        Organização de um Project Record em XML utilizando DTD.
+    </Abstract>
+    <Deliverables>
+        <File link="path_to_file">PR.dtd</File>
+    </Deliverables>
+</PR>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT PR (Header, Abstract, Deliverables) >
+
+<!ELEMENT Header (KName, Title, Subtitle, BDate, EDate, Supervisor) >
+<!ELEMENT  KName (#PCDATA) >
+<!ELEMENT  Title (#PCDATA) >
+<!ELEMENT  Subtitle (#PCDATA) >
+<!ELEMENT  BDate (#PCDATA) >
+<!ELEMENT  EDate (#PCDATA) >
+<!ELEMENT  Supervisor (#PCDATA) >
+<!ATTLIST Supervisor link CDATA #REQUIRED >
+
+<!ELEMENT Abstract (#PCDATA) >
+
+<!ELEMENT Deliverables (File)* >
+<!ELEMENT File (#PCDATA) >
+<!ATTLIST File link CDATA #REQUIRED >
