@@ -13,6 +13,6 @@
         Organização de um Project Record em XML utilizando DTD.
     </Abstract>
     <Deliverables>
-        <File link="path_to_file">PR.dtd</File>
+        <File link="https://github.com/leonerii/dbweb2019/blob/master/tp2/PR.dtd">PR.dtd</File>
     </Deliverables>
 </PR>

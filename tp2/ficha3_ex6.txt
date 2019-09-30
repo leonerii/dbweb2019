@@ -1,0 +1,8 @@
+a) Qual o "IDENTI" dos arqueossítios do concelho de Amares.
+/ARQSITS/ARQELEM/TIPO[@ASSUNTO="arqueossitio"]/../IDENTI
+
+b) Quais os concelhos com arqueossítios registados.
+//CONCEL
+
+c) Seleccione as descrições dos arqueossítios do concelho de Montalegre.
+//DESCRI[matches(../CONCEL,"[ ]*Montalegre[ ]*")]
