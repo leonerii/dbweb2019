@@ -30,9 +30,9 @@
 
         <p><h2>Deliverables</h2></p>
         <p><ul>
-            <xsl:for-each select="pr/deliverables">
-                <xsl:variable name="href" select="deliverable/@path"/>
-                <li><a href="{$href}"> <xsl:value-of select="deliverable"/></a></li>
+            <xsl:for-each select="pr/deliverables/deliverable">
+                <xsl:variable name="href" select="./@path"/>
+                <li><a href="{$href}"> <xsl:value-of select="."/></a></li>
             </xsl:for-each>
         </ul></p>
     </body>

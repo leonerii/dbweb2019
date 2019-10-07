@@ -21,6 +21,11 @@
         <p>Tranformação de XML em HTML através do uso de XSLT.</p>
     </abstract>
     <deliverables>
-        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp2/PR.dtd">PR.dtd</deliverable>
+        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/arq.xml">arq.xml</deliverable>
+        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/arq.dtd">arq.dtd</deliverable>
+        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/arq.xsl">arq.xsl</deliverable>
+        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/PR.xml">PR.xml</deliverable>
+        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/PR.dtd">PR.dtd</deliverable>
+        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/PR.xsl">PR.xsl</deliverable>
     </deliverables>
 </pr>
