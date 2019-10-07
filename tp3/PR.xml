@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="PR.xsl"?>
+<!DOCTYPE pr SYSTEM "PR.dtd">
+<pr>
+    <metadata>
+        <keyname>DAW_TPC3</keyname>
+        <title>Project Record XSLT</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>Outubro 2019</bdate>
+        <edate>Outubro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A80056</identifier>
+            <name>Leonardo Neri</name>
+            <email>a80056@alunos.uminho.pt</email>
+            <git>leonerii</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Tranformação de XML em HTML através do uso de XSLT.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp2/PR.dtd">PR.dtd</deliverable>
+    </deliverables>
+</pr>
