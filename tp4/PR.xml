@@ -3,7 +3,7 @@
 <!DOCTYPE pr SYSTEM "PR.dtd">
 <pr>
     <metadata>
-        <keyname>DAW_TPC3</keyname>
+        <keyname>DAW_TPC4</keyname>
         <title>Project Record XSLT</title>
         <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
         <bdate>Outubro 2019</bdate>
@@ -18,14 +18,19 @@
         </worker>
     </workteam>
     <abstract>
-        <p>Tranformação de XML em HTML através do uso de XSLT.</p>
+        <p>Este projeto explorou as funcionalidades da linguagem XML como sua ferramanta de transformação, o XLST, 
+            para converter ficheiros XML em HTML.</p> 
+        <p>Depois estes ficheiros foram disponibilizados atráves do browser utilizando um
+            servidor NodeJS.</p>
     </abstract>
     <deliverables>
-        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/arq.xml">arq.xml</deliverable>
-        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/arq.dtd">arq.dtd</deliverable>
-        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/arq.xsl">arq.xsl</deliverable>
-        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/PR.xml">PR.xml</deliverable>
-        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/PR.dtd">PR.dtd</deliverable>
-        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/PR.xsl">PR.xsl</deliverable>
+        <deliverable path="https://github.com/leonerii/dweb2019/blob/master/tp4/arq.xml">arq.xml</deliverable>
+        <deliverable path="https://github.com/leonerii/dweb2019/blob/master/tp4/gen_main_page.xsl">gen_main_page.xsl</deliverable>
+        <deliverable path="https://github.com/leonerii/dweb2019/blob/master/tp4/server.js">server.js</deliverable>
+        <deliverable path="https://github.com/leonerii/dweb2019/blob/master/tp4/PR.xml">PR.xml</deliverable>
+        <deliverable path="https://github.com/leonerii/dweb2019/blob/master/tp4/PR.dtd">PR.dtd</deliverable>
+        <deliverable path="https://github.com/leonerii/dweb2019/blob/master/tp4/PR.xsl">PR.xsl</deliverable>
+        <deliverable path="https://github.com/leonerii/dweb2019/blob/master/tp4/xml-split.xsl">xml-split.xsl</deliverable>
+        <deliverable path="https://github.com/leonerii/dweb2019/tree/master/tp4/dataset">datasets</deliverable>
     </deliverables>
 </pr>
