@@ -1,0 +1,14 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "node hello"
+  },
+  "author": "Leonardo Neri",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

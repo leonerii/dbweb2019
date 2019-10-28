@@ -1,0 +1,16 @@
+{
+  "name": "aulunos",
+  "version": "1.0.0",
+  "description": "gestao de alunos",
+  "main": "alunos.js",
+  "scripts": {
+    "test": "node alunos",
+    "start": "node server.js"
+  },
+  "author": "Leonardo Neri",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^5.0.0",
+    "pug": "^2.0.4"
+  }
+}

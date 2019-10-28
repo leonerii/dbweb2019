@@ -1,0 +1,45 @@
+extends layout
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 Novo Arqueosítio
+            .w3-container
+                form.w3-container(action='/' method='POST')
+                    label
+                        b Identificador
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='id')
+                    label
+                        b Província
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='prov')
+                    label
+                        b Local
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='local')
+                    label
+                        b Músico
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='musico')
+                    label
+                        b Arquivo
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='file')
+                    label
+                        b Obs
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='obs')
+                    button.w3-button.w3-border.w3-light-grey(type='submit') Enviar
+            br
+            .w3-card-4
+                table.w3-table-all
+                    tr
+                        th Província
+                        th Local
+                        th Músico
+                        th Operações
+                    each arq in arq_lista
+                        tr
+                            td= arq.prov
+                            td= arq.local
+                            td= arq.musico
+                            td
+                                button.w3-button.w3-circle.w3-light-grey(onclick="apagaItem('" + arq.id  + "')") Apagar
+                                button.w3-button.w3-circle.w3-light-grey(onclick="details('" + arq.id  + "')") Detalhes
+            footer.w3-container.w3-teal
+                address Gerado por Gestao de Arqueosítios App

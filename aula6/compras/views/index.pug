@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  .w3-container
+      h1 Gestao de Compras
+          .w3-card-4
+            header.w3-container.w3-teal
+                h3 Novo Item
+            .w3-container
+                form.w3-container(action='/' method='POST')
+                    label
+                        b Item
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='nome')
+                    label
+                        b Quantidade
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='quantidade')
+                    button.w3-button.w3-border.w3-light-grey(type='submit') Enviar
+            br
+            .w3-card-4
+                table.w3-table-all
+                    tr
+                        th Item
+                        th Quantidade
+                        th Operações
+                    each item in item_lista
+                        tr
+                            td= item.nome
+                            td= item.quantidade
+                            td
+                                button.w3-button.w3-circle.w3-light-grey(onclick="apagaItem('" + item.id + "')") Apagar
+          footer.w3-container.w3-teal
+              address Gerado por Gestao de Alunos App
