@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="PR.xsl"?>
+<!DOCTYPE pr SYSTEM "PR.dtd">
+<pr>
+    <metadata>
+        <keyname>DAW_TPC7</keyname>
+        <title>Project Record XSLT</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>Novembro 2019</bdate>
+        <edate>Novembro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A80056</identifier>
+            <name>Leonardo Neri</name>
+            <email>a80056@alunos.uminho.pt</email>
+            <git>leonerii</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este projeto consiste numa API simples para gerenciamento de registros de filmes.
+            Através da API é possível consultar, editar, criar e deletar um registro através de métodos HTTP.
+            
+            <b>Exemplo de uso:</b>
+            <i>curl -X POST http://127.0.0.1:3000/filmes -d '{"title": "qualquer um", "year": 2019}'</i>
+
+                Irá criar um filme com o título "qualquer um" produzido no ano 2019
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="https://github.com/leonerii/dweb2019/blob/master/tp7/filmes">Filmes project folder</deliverable>
+        <deliverable path="https://github.com/leonerii/dweb2019/blob/master/tp7/PR.xml">PR.xml</deliverable>
+        <deliverable path="https://github.com/leonerii/dweb2019/blob/master/tp7/PR.html">PR.html</deliverable>
+        <deliverable path="https://github.com/leonerii/dweb2019/blob/master/tp7/PR.xsl">PR.xsl</deliverable>
+        <deliverable path="https://github.com/leonerii/dweb2019/blob/master/tp7/queries.txt">mongo db queries</deliverable>
+    </deliverables>
+</pr>
