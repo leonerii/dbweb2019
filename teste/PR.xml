@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="PR.xsl"?>
+<!DOCTYPE pr SYSTEM "PR.dtd">
+<pr>
+    <metadata>
+        <keyname>Teste DAW 2020</keyname>
+        <title>Teste DAW 2020</title>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+        <bdate>Janeiro 2019</bdate>
+        <edate>Janeiro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A80056</identifier>
+            <name>Leonardo Neri</name>
+            <email>a80056@alunos.uminho.pt</email>
+            <git>leonerii</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>O dataset XML foi convertido para JSON utilizando uma ferramenta online, www.freeformatter.com. A persistencia dos dados foi feita através de um docker container mongoDB. </p>
+        <p>O comando utilizado para o import foi: mongoimport --db musica --collection musica --file dataset.json --jsonArray</p>
+        <p>Para o segundo exercício usou-se o curl junto com o jq para testar a API</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/arq.xml">arq.xml</deliverable>
+        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/arq.dtd">arq.dtd</deliverable>
+        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/arq.xsl">arq.xsl</deliverable>
+        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/PR.xml">PR.xml</deliverable>
+        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/PR.dtd">PR.dtd</deliverable>
+        <deliverable path="https://github.com/leonerii/dbweb2019/blob/master/tp3/PR.xsl">PR.xsl</deliverable>
+    </deliverables>
+</pr>

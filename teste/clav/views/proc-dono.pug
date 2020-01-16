@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  .w3-container
+    .w3-card-4.w3-teal
+      h1 Classificação e Avaliação da Informação Pública
+    table.w3-table-all
+        tr
+          th Codigo
+          th Titulo
+        each doc in lista
+          tr
+            td=doc.codigo
+            td=doc.titulo              
+    address
+      footer.w3-container.w3-card-4.w3-teal
+        address 
+          a(href="http://127.0.0.1:3001") Homepage
+        

@@ -1,0 +1,31 @@
+extends layout
+
+block content
+  .w3-container
+    .w3-card-4.w3-teal
+      h1 Classificação e Avaliação da Informação Pública
+    table.w3-table-all
+        tr
+          th ID
+          th Sigla
+          th Designação
+          th Tipologias
+          th Processos - Dono
+          th Processos - Participante
+        each doc in lista
+          tr
+            td
+               a(href="http://127.0.0.1:3001/" + doc.id) !{doc.id}
+            td=doc.sigla
+            td=doc.designacao
+            td 
+              a(href="http://127.0.0.1:3001/tipologia/" + doc.id) Tipologia
+            td 
+              a(href="http://127.0.0.1:3001/processo/dono/" + doc.id) Processos Dono
+            td 
+              a(href="http://127.0.0.1:3001/processo/part/" + doc.id) Processos Participante                
+    address
+      footer.w3-container.w3-card-4.w3-teal
+        address 
+          a(href="http://127.0.0.1:3001") Homepage
+        
